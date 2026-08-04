@@ -1,9 +1,0 @@
-version: 1.1.4
-cache: true
-speech:
-  tts:
-    openai:
-      url: "speechify-proxy-production.up.railway.app"
-      apiKey: "${SPEECHIFY_API_KEY}"
-      model: "simba-3.2"
-      voices: ["geffen_32", "snoop_dogg"]
